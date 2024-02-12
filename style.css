@@ -1,0 +1,23 @@
+* {
+    border: 1px solid red;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 100vh;
+    margin: 20px;
+}
+.sectiontext_result {
+    width: 50%;
+    align-items: center;
+}
+
+#result {
+    width: 80%;
+    height: 100vh;
+}
