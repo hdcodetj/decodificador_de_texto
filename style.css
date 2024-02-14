@@ -8,25 +8,42 @@
 body {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
     height: 100vh;
-    margin: 10px;
 }
 
 .section1 {
     display: flex;
     flex-direction: column;
+    width: 50%;
+    margin: 5%;
     }
 #text {
     width: auto;
-    height: 50%;
+    height: 80%;
 }
 .button {
     padding: 10px;
     margin: 10px;
 }
 
-.text_result {
-    height: 50%;
+#button {
+    display: flex;
+    justify-content: center;    ;
 }
 
+.text_result {
+    height: 80%;
+}
+.result_info {
+    text-align: center;
+    padding: 0.8rem;
+}
+
+.typetext {
+    padding: 1rem;
+}
+.section2 {
+    width: 50%;
+    margin: 5%;
+}
