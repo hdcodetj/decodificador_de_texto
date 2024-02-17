@@ -1,0 +1,29 @@
+* {
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+#title {
+    text-align: center;
+    padding: 0.5rem;
+    font-family: "Kode Mono", monospace;
+    font-size: 3.0rem;
+}
+
+#section1 {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.container {
+    width: 50%;
+}
+
+#resultado {
+    width: 50%;
+}
