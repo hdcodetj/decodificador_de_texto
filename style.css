@@ -28,7 +28,7 @@
 
 #text {
     width: 100%;
-    height: 80%;
+    height: 90%;
 }
 #texto::placeholder {
     font-family: 'calibri';
@@ -68,10 +68,12 @@ textarea {
 
 #resultado {
     width: 50%;
+    display: flex;
+    flex-direction: column;
 }
+
 #copiar {
-    padding: 1rem;
-    display: none;
+    padding: 1rem;    
 }
 #footer {
     width: 100%;
