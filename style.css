@@ -7,6 +7,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
+body {
+    width: 100%;
+    height: 99.7vh;
+}
 #title {
     text-align: center;
     padding: 0.5rem;
@@ -21,11 +25,10 @@
     margin: 1rem;
 }
 
-textarea, #result {
-    width: 100%;
-    height: 80vh
+#section1, #container, #container2 {
+    height: 80vh;    
 }
-
-#container, #container2, #result {
-    height: 80vh;
+textarea {
+    height: 50vh;
+    width: 100%;
 }
