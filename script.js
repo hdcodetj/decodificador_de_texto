@@ -5,7 +5,7 @@ function cripto() {
                       .replace(/a/g, 'ai')
                       .replace(/o/g, 'ober')
                       .replace(/u/g, 'ufat');
-  document.getElementById('result_text').innerHTML = result;  
+  document.getElementById('resultado_final').innerHTML = result;  
   document.getElementById('copiar').style.display = 'block';
 
 };
@@ -18,12 +18,12 @@ function descripto() {
                       .replace(/ai/g, 'a')
                       .replace(/ober/g, 'o')
                       .replace(/ufat/g, 'u');
-  document.getElementById('result_text').innerHTML = result;
+  document.getElementById('resultado_final').innerHTML = result;
   document.getElementById('copiar').display = 'block';
 }
 
 function copiartexto() {
-    const textcopiado = document.getElementById('result_text').value;
+    const textcopiado = document.getElementById('resultado_final').value;
     textcopiado.select();
     document.execCommand('copiar');
 }

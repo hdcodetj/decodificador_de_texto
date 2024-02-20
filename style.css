@@ -31,3 +31,8 @@ textarea {
     height: 50vh;
     width: 100%;
 }
+
+#resultado_final {
+    overflow: hidden;
+    word-wrap: break-word;
+}
