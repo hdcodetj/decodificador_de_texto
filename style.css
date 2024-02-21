@@ -39,14 +39,39 @@ body {
 
 #texto, #resultado_final {
     width: 100%;
-    height: 50vh;
+    height: 65vh;
     overflow: hidden;
     word-wrap: break-word;
     padding: 1.0rem;
     text-align: justify;    
 }
 
+#imagemEtexto {
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    font-size: 1.0rem;    
+    font-family: "Calibri", sans-serif;
+    padding: 10px;
+}
 
+#buttons {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+.button, #copiar {
+    padding: 1rem;
+    border: 1px solid blue;
+    border-radius: 15px;
+    width: 14rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.0rem;
+    font-family: 'Calibri', sans-serif;
+}
 
 #imgnothing {
     width: 100%;
@@ -64,4 +89,17 @@ body {
     font-size: 0.5;
     font-family: 'Calibri', sans-serif;
     padding: 10px;
+}
+
+#copiar {
+
+}
+
+#footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: 'Calibri', sans-serif;    
+    height: 100%;
+    width: 100%;
 }
