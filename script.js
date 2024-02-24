@@ -1,5 +1,5 @@
 function cripto() {
-  const text = document.getElementById('texto').value;
+  const text = document.getElementById('texto').value.toLowerCase();
   const result = text.replace(/e/g, 'enter')
                       .replace(/i/g, 'imes')
                       .replace(/a/g, 'ai')
@@ -12,7 +12,7 @@ function cripto() {
 
 
 function descripto() {
-  const text = document.getElementById('texto').value;
+  const text = document.getElementById('texto').value.toLowerCase();
   const result = text.replace(/enter/g, 'e')
                       .replace(/imes/g, 'i')
                       .replace(/ai/g, 'a')
@@ -22,8 +22,8 @@ function descripto() {
   document.getElementById('copiar').display = 'block';
 }
 
-function copiartexto() {
-    const textcopiado = document.getElementById('resultado_final').value;
+function copiartext() {
+    const textcopiado = document.getElementById('resultado_final').innerText;
     textcopiado.select();
     document.execCommand('copiar');
 }
