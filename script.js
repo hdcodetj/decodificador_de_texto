@@ -23,7 +23,12 @@ function descripto() {
 }
 
 function copiartext() {
-    const textcopiado = document.getElementById('resultado_final').innerText;
-    textcopiado.select();
-    document.execCommand('copiar');
+    let textcopiado = document.getElementById('resultado_final').innerText;
+    navigator.clipboard.writeText(textcopiado)
+            .then(() => {
+            document.getElementById('copiar').innerText = 'Texto copiado com sucesso!';
+             })
+        .catch(err => {
+          document.getElementById('copiar').innerText = 'Erro ao copiar texto:';
+            });
 }
